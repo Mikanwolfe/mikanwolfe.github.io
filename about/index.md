@@ -18,11 +18,13 @@ This site is both my personal site and blog about and related to projects and si
 
 ## Contact me
 
-<form action="https://formspree.io/contact@nekox.net" method="POST">
-  Name:<br> <input type="text" name="name"> <br>
-  Email:<br> <input type="email" name="_replyto"> <br> <br>
-  <input type="submit" value="Send">
-</form> 
+<form method="POST" action="https://formspree.io/contact@nekox.net">
+  <input type="email" name="email" placeholder="Your email"> <br>  <br>
+  <textarea name="message" placeholder="Message"></textarea>  <br>  <br>
+  <button type="submit">Send</button>
+</form>
+
+
 
 
 ## Theme
