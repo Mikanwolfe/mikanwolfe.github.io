@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: About nekox.net
+tags: [about, nekox, theme, moon]
 date: 2016-03-21
 comments: false
 ---
@@ -14,7 +14,11 @@ Mikanwolfe is an Engineering (Robotics)/Computer Science (Software) student curr
 
 I will include a more detailed personal bio later.
 
-This site is both my personal site and blog about and related to projects and similar undertakings.
+This site is both my personal site and blog about and related to projects and similar undertakings. This means that this site is a work in progress!
+
+## Theme
+
+Nekox.net is powered by the lovely Moon theme by [TaylanTatli](https://github.com/TaylanTatli). Moon is licensed under the MIT license but Tatli deserves a lot more than a simple mention. My heartfelt thanks goes out to Tatli for creating such an amazing theme.
 
 
 
