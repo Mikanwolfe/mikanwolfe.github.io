@@ -22,6 +22,7 @@ This site is both my personal site and blog about and related to projects and si
   <input type="email" name="email" placeholder="Your email"> <br>  <br>
   <textarea name="message" placeholder="Message"></textarea>  <br>  <br>
   <button type="submit">Send</button>
+  <input type="hidden" name="_next" value="https://nekox.net/thanks.html" />
 </form>
 
 
