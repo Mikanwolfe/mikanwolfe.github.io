@@ -7,6 +7,9 @@ tags: [nekox, general]
 comments: true
 ---
 
+<center> <b>nekox.net</b> is live!</center>
+
+
 ## Finally!
 
 It has always seemed like an odd choice for me to create my own website. My coworkers did urge me to create one for professionalism and contact's sake, but websites are expensive for a student. Often, hosting, purchasing a domain, and setting everything up, isn't easy. 
