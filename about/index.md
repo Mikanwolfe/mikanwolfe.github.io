@@ -16,9 +16,17 @@ I will include a more detailed personal bio later.
 
 This site is both my personal site and blog about and related to projects and similar undertakings. This means that this site is a work in progress!
 
+## Contact me
+
+<form action="https://formspree.io/contact@nekox.net" method="POST">
+  Name:<br> <input type="text" name="name"> <br>
+  Email:<br> <input type="email" name="_replyto"> <br> <br>
+  <input type="submit" value="Send">
+</form> 
+
+
 ## Theme
 
 Nekox.net is powered by the lovely Moon theme by [TaylanTatli](https://github.com/TaylanTatli). Moon is licensed under the MIT license but Tatli deserves a lot more than a simple mention. My heartfelt thanks goes out to Tatli for creating such an amazing theme.
-
 
 
