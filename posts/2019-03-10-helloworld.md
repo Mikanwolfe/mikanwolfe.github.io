@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Github Pages, Jerkyll, and cybersecurity!
-date: 2013-08-16
-excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
+date: 2019-03-10
+excerpt: "nekox.net is live!"
 tags: [nekox, general]
 comments: true
 ---
-
-<center> <b>nekox.net</b> is live!</center>
 
 ## Finally!
 
