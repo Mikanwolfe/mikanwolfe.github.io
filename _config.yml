@@ -1,7 +1,7 @@
 # Site
 title:              nekox
-bio:                'nekox.net, mikanwolfe''s personal site.'
-description:        "nekox.net, mikanwolfe's personal site."
+bio:                'mikanwolfe''s personal site.'
+description:        "mikanwolfe's personal site."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   nekox-net
 
 # Social
 # if you don't have any of social below, comment the line.
