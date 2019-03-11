@@ -74,10 +74,11 @@ G(s)
 $$
 <br>
 Closed-Loop transfer functions:
+\[
 $$
 \frac{C(s)}{R(s)}=\frac{G(s)}{1+G(s)+H(s)}
 $$
-<br>
+\]
 [Closed Loop diagram]
 
 #### Closed-Loop System subjected to a disturbance
