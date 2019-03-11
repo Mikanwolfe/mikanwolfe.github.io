@@ -1,18 +1,31 @@
 ---
 layout: post
-title: Control Systems Engineering and that Laplace Guy
+title: Using Laplace in Control Systems Engineering
 date: 2019-03-10
-excerpt: "A test for mathjax"
+excerpt: "The theory behind Laplace and Inverse Laplace transforms and the application to control systems"
 tags: [maths, math, laplace, engineering]
 comments: true
 ---
+
+## Modelling Dynamic Systems with Mathematics
+
+Using mathematics to model dynamic systems is a fundemental part of control systems engineering. It allows us to break down complex mechanical, thermal, or even biological systems into a model we can use to accurately predict both the current and possibly future "dynamics" of a system. 
+
+They are often comprised of differential equations and therefore, are difficult to calculate under normal circumstances. This is where the concept of Laplace Transforms comes in.
+
+Leaving the theory of Laplacian transforms for another day, they allow us to simplify the mathematics used in these highly integrated systems and come to more sane results and conclusions.
+
+### Definitions
+
+A **Linear System** is defined if the principle of superposition can be applied. The simple explanation is that a system is called linear if you can add the parts together such that \\(  F(x_1 + x_2) = F(x_1) + F(x_2))\\).
+
 
 
 ## Laplace for Engineering
 
 ##### Shortcut for inverse laplace transform
 
-For a given function in the $s$-domain:
+For a given function in the $s​$-domain:
 $$
 y(s) = \frac{s+4}{s^2+4s+3}
 $$
