@@ -7,7 +7,7 @@ tags: [maths, laplace, engineering]
 comments: true
 ---
 
-## ## Laplace Final Value Theorem
+## Laplace Final Value Theorem
 
 This formula is used to find the steady-state value of a system:
 
@@ -20,3 +20,4 @@ The initial value theorem:
 $$
 f(0+)=\lim_{s\to\infty}sF(s)
 $$
+
