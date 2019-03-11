@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Using Laplace in Control Systems Engineering
-date: 2019-03-10
-excerpt: "The theory behind Laplace and Inverse Laplace transforms and the application to control systems"
+title: Laplace, Transfer Functions, and a healthy dose of block diagrams.
+date: 2019-03-11
+excerpt: "Using Laplace to understand block diagrams and the theory behind basic control systems"
 tags: [maths, math, laplace, engineering]
 comments: true
 ---
@@ -15,28 +15,64 @@ They are often comprised of differential equations and therefore, are difficult 
 
 Leaving the theory of Laplacian transforms for another day, they allow us to simplify the mathematics used in these highly integrated systems and come to more sane results and conclusions.
 
-### Definitions
+#### Definitions
 
-A **Linear System** is defined if the principle of superposition can be applied. The simple explanation is that a system is called linear if you can add the parts together such that \\(  F(x_1 + x_2) = F(x_1) + F(x_2))\\).
+A **Linear System** is defined if the principle of superposition can be applied. The simple explanation is that a system is called linear if you can add the parts together such that \\(  F(x_1 + x_2) = F(x_1) + F(x_2)\\).
 
+A **Linear time-invariant (and varying) systems** are linear differential equations if the coefficients are constants. 
 
+## Transfer Functions
 
-## Laplace for Engineering
+TODO:  What transfer functions are used for
 
-##### Shortcut for inverse laplace transform
-
-For a given function in the $s​$-domain:
+The transfer function of a linear, time-invariant, diffential equation system, is defined as:
 $$
-y(s) = \frac{s+4}{s^2+4s+3}
+G(S) = \frac{L[Output]}{L[Input]} , \ given\ that \ all \ initial \ conditions \ are \ zero
+$$
+Transfer functions relate the input to the output and doesn't necessarily relate to the nature or magnitude of the input. Transfer functions are intrinsic properties of the system itself, a good example of this is the *Gain* of an Op-Amp.
+
+### Block Diagrams
+
+Block diagrams are used to represent the flow of information within a system. The functions are performed by blocks with defined inputs and outputs alongside the transfer functions used to manipulate the flowing signal.
+
+[basic block diagram parts with sum node and block node]
+
+[basic negative feedback loop system]
+
+[example of float as a two-position on-off control system]
+
+### PID Control
+
+PID Control stands for Proportional, Integral, and Derivative control. In a control system, they are defined as:
+
+**Proportional Control:**
+$$
+u(t) = K_pe(t) \qquad \frac{U(s)}{E(s)}=K_p
+$$
+**Integral Control**
+$$
+u(t) = K_i\int_0^te(t)dt \qquad \frac{U(s)}{E(s)}=\frac{K_i}{s}
+$$
+**Proportional plus Derivative Control**
+$$
+u(t) = K_pe(t)+K_pT_d\frac{de(t)}{dt} \qquad \frac{U(s)}{E(s)}K_p(1+T_ds)
 $$
 
-Finding the limit to infinity will provide an accurate representation of the final steady-state of the system such that:
+### Open Loop and Feed Forward Transfer functions
 
+Open-Loop transfer functions:
 $$
-\lim_{t \to \infty} y(t) = y(\infty) = \lim_{s \to 0}sY(s) \\
-= \lim_{s \to0}s\frac{s+4}{s^2 +4s +3} \\
-= 0 \cdot \frac{4}{3}\\ = 0\\
-\therefore \lim_{y \to \infty}y(t) = 0
+G(s)H(s)
 $$
+Feed-Forward transfer functions:
+$$
+G(s)
+$$
+Closed-Loop transfer functions:
+$$
+\frac{C(s)}{R(s)}=\frac{G(s)}{1+G(s)+H(s)}
+$$
+[Closed Loop diagram]
 
-This will probably get more attention later on.
+#### Closed-Loop System subjected to a disturbance
+
