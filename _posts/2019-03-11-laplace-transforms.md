@@ -79,7 +79,7 @@ $$
 
 Feed-Forward transfer functions:
 
-[ $$
+$$
 G(s)
 $$
 
