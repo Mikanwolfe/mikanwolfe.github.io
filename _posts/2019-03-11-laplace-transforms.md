@@ -55,14 +55,14 @@ u(t) = K_pe(t) \qquad \frac{U(s)}{E(s)}=K_p
 $$ \\]
 
 
-**Integral Control**
+**Integral Control:**
 
-\\[ $$
+\[ $$
 u(t) = K_i\int_0^te(t)dt \qquad \frac{U(s)}{E(s)}=\frac{K_i}{s}
-$$ \\]
+$$ \]
 
 
-**Proportional plus Derivative Control**
+**Proportional plus Derivative Control:**
 
 \\[ $$
 u(t) = K_pe(t)+K_pT_d\frac{de(t)}{dt} \qquad \frac{U(s)}{E(s)}K_p(1+T_ds)
@@ -85,11 +85,11 @@ $$ \\]
 
 Closed-Loop transfer functions:
 
-\\[
+\[
 $$
 \frac{C(s)}{R(s)}=\frac{G(s)}{1+G(s)+H(s)}
 $$
-\\]
+\]
 
 [Closed Loop diagram]
 
