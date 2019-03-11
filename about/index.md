@@ -10,9 +10,9 @@ comments: false
 
 **Welcome to nekox.net!**
 
-Mikanwolfe is an Engineering (Robotics)/Computer Science (Software) student currently studying at Swinburne University of Techonolgy* in Melbourne, Australia.
+Mikanwolfe is an Engineering (Robotics)/Computer Science (Software) student currently studying at *Swinburne University of Techonolgy* in Melbourne, Australia.
 
-I will include a more detailed personal bio later.
+[If you're reading this then the author has forgotten to include a more thorough bio for the about page.]
 
 This site is both my personal site and blog about and related to projects and similar undertakings. This means that this site is a work in progress!
 
