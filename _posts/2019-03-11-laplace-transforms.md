@@ -3,7 +3,7 @@ layout: post
 title: Laplace, Transfer Functions, and a healthy dose of block diagrams.
 date: 2019-03-11
 excerpt: "Using Laplace to understand block diagrams and the theory behind basic control systems"
-tags: [maths, math, laplace, engineering]
+tags: [maths, laplace, engineering, block diagrams, control, system]
 comments: true
 ---
 
@@ -27,9 +27,9 @@ TODO:  What transfer functions are used for
 
 The transfer function of a linear, time-invariant, diffential equation system, is defined as:
 
-\\[ $$
+$$
 G(S) = \frac{L[Output]}{L[Input]} , \ given\ that \ all \ initial \ conditions \ are \ zero
-$$ \\]
+$$
 
 Transfer functions relate the input to the output and doesn't necessarily relate to the nature or magnitude of the input. Transfer functions are intrinsic properties of the system itself, a good example of this is the *Gain* of an Op-Amp.
 
@@ -50,9 +50,9 @@ PID Control stands for Proportional, Integral, and Derivative control. In a cont
 **Proportional Control:**
 
 
-\\[ $$
+$$
 u(t) = K_pe(t) \qquad \frac{U(s)}{E(s)}=K_p
-$$ \\]
+$$
 
 
 **Integral Control:**
@@ -64,24 +64,24 @@ $$
 
 **Proportional plus Derivative Control:**
 
-\\[ $$
+$$
 u(t) = K_pe(t)+K_pT_d\frac{de(t)}{dt} \qquad \frac{U(s)}{E(s)}K_p(1+T_ds)
-$$ \\]
+$$
 
 
 ### Open Loop and Feed Forward Transfer functions
 
 Open-Loop transfer functions:
 
-\\[ $$
+$$
 G(s)H(s)
-$$ \\]
+$$
 
 Feed-Forward transfer functions:
 
-\\[ $$
+[ $$
 G(s)
-$$ \\]
+$$
 
 Closed-Loop transfer functions:
 
