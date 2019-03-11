@@ -93,3 +93,37 @@ $$
 
 #### Closed-Loop System subjected to a disturbance
 
+[Closed loop diagram with disturbance]
+
+Given the system, the equation governing the system would be:
+
+$$
+\frac{C_D(s)}{D(s)}=\frac{G_s(s)}{1+G_1(s)G_2(s)H(s)}
+$$
+
+The effects of the disturbance can be suppressed as long as:
+
+$$
+G_1(s)G_2(s)H(s) >> 1
+$$
+
+Therefore the response in such a situation would be given by:
+
+$$
+\frac{C_R(s)}{R(s)} = \frac{G_1(s)G_2(s)}{1+G_1(s)G_2(s)H(s)}\approx \frac1{H(s)} \qquad if \qquad G_1(s)G_2(s)H(s)>>1
+$$
+
+This implies that any variation or disturbance would not affect the the transfer function as the output will closely follow the input.
+
+
+
+### Procedure for drawing a block diagram
+
+1. Write the differential equation of the system
+2. Use the Laplace Transform assuming zero initial conditions
+3. For each Laplace Transform represent the term with a single block
+4. Assemble and simplify the block diagram
+
+### Block Diagram Reduction
+
+Lots of images here, will update at a later date.
