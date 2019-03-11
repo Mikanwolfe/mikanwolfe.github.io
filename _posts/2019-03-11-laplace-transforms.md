@@ -57,28 +57,34 @@ u(t) = K_i\int_0^te(t)dt \qquad \frac{U(s)}{E(s)}=\frac{K_i}{s}
 $$
 <br>
 **Proportional plus Derivative Control**
-$$
+
+\[ $$
 u(t) = K_pe(t)+K_pT_d\frac{de(t)}{dt} \qquad \frac{U(s)}{E(s)}K_p(1+T_ds)
-$$
-<br>
+$$ \]
+
+
 ### Open Loop and Feed Forward Transfer functions
 
 Open-Loop transfer functions:
-$$
+
+\[ $$
 G(s)H(s)
-$$
-<br>
+$$ \]
+
 Feed-Forward transfer functions:
-$$
+
+\[ $$
 G(s)
-$$
-<br>
+$$ \]
+
 Closed-Loop transfer functions:
+
 \[
 $$
 \frac{C(s)}{R(s)}=\frac{G(s)}{1+G(s)+H(s)}
 $$
 \]
+
 [Closed Loop diagram]
 
 #### Closed-Loop System subjected to a disturbance
