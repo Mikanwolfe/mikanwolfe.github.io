@@ -57,9 +57,9 @@ $$ \\]
 
 **Integral Control:**
 
-\[ $$
+$$
 u(t) = K_i\int_0^te(t)dt \qquad \frac{U(s)}{E(s)}=\frac{K_i}{s}
-$$ \]
+$$
 
 
 **Proportional plus Derivative Control:**
@@ -85,11 +85,9 @@ $$ \\]
 
 Closed-Loop transfer functions:
 
-\[
 $$
 \frac{C(s)}{R(s)}=\frac{G(s)}{1+G(s)+H(s)}
 $$
-\]
 
 [Closed Loop diagram]
 
