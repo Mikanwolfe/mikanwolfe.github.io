@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Github Pages, Jerkyll, and cybersecurity!
+title: Github Pages, Jerkyll, and a cat!?
 date: 2019-03-10
-excerpt: "nekox.net is live!"
+excerpt: "Setting up your own site with Google Domains and GitHub Pages"
 tags: [nekox, general]
 comments: true
 ---
