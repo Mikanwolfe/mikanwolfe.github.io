@@ -27,7 +27,7 @@ TODO:  What transfer functions are used for
 
 The transfer function of a linear, time-invariant, diffential equation system, is defined as:
 $$
-G(S) = \frac{L[Output]}{L[Input]} , \ given\ that \ all \ initial \ conditions \ are \ zero
+G(S) = \frac{L[Output]}{L[Input]} , \ given\ that \ all \ initial \ conditions \ are \ zero \\
 $$
 Transfer functions relate the input to the output and doesn't necessarily relate to the nature or magnitude of the input. Transfer functions are intrinsic properties of the system itself, a good example of this is the *Gain* of an Op-Amp.
 
