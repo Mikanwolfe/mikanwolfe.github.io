@@ -3,7 +3,7 @@ layout: post
 title: Design Patterns in C#
 date: 2019-03-13
 excerpt: "Delving into design patterns and their use in OOP"
-feature: https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg
+feature: https://images.pexels.com/photos/415945/pexels-photo-415945.jpeg
 tags: [engineering, programming, csharp, design patterns]
 comments: true
 ---
