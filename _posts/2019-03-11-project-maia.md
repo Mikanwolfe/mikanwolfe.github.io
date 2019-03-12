@@ -15,6 +15,17 @@ tag:
 comments: true
 ---
 
-# Project Maia
+[Project Maia Logo]
 
-This is the landing page for Project Maia/Blue Steel.
+*The continuation of zuihou.*
+
+---
+
+Project Maia (Maia being a Codename) is my ambition to build a "remote-controlled" submarine-boat hybrid both as a passion project and as a serious platform for future development.
+
+## Overview
+
+## Goals
+
+## Problem Statement
+
