@@ -3,13 +3,13 @@ layout: post
 title: Design Patterns for games in C#
 date: 2019-03-14
 excerpt: "Delving into design patterns and their use in OOP"
-feature: https://images.pexels.com/photos/415945/pexels-photo-415945.jpeg
+feature: https://images.pexels.com/photos/716661/pexels-photo-716661.jpeg
 tags: [engineering, programming, csharp, design patterns]
 project: true
 comments: true
 ---
 
-### Design Patterns, especially in games.
+# Design Patterns and a University Project
 
 When we have a problem, as engineers, we find solutions. Often, there are smarter people who have had the exact same or very similar problems and thus, have also found solutions. More often than not, their solutions are often a lot better than what we could produce in our limited time we have to deal with the problem, be it a technical or temporal constraint. 
 
@@ -54,7 +54,7 @@ For my High-Distinction (HD) project I plan to undertake for one of my programmi
 
 
 
-### Artillery 3
+# Artillery 3
 
 Artillery was the HD project for the preceding unit and therefore it felt reasonable to both re-write and extend on the concepts explored in Artillery. This post will be dedicated to the conceptualisation and the research I will be doing to realise Artillery 3 as a HD project.
 
@@ -68,9 +68,11 @@ If we stretch our definitions of *design patterns* a little, game design often i
     * And composition, though Inheritance vs. Composition is something for another day
   * Virtual and Abstract Classes
     * The implementation of Interfaces and their uses
+* Game Design Patterns
+  - Game Loop
+  - Double Buffer
+  - Update Method
 * Design Patterns (Traditional, GoF 23)
-  * Singleton
-    * *Only one instance exists within the game*, used in conjunction with the Factory Design Pattern and/or for caching settings.
   * Factory
     * *An object who's sole purpose is for creating other objects*. In reality, the factory design pattern is useful for a variety of reasons and sees extensive implementation in games development which will be discussed in more detail later (if you're reading this then the author forgot to write a more detailed description here and thought delegating to a later post might be good temporary solution.)
   * Observer
@@ -83,14 +85,55 @@ If we stretch our definitions of *design patterns* a little, game design often i
   * Command
   * Strategy
   * Template
-* Game Design Patterns
-  * Game Loop
-  * Double Buffer
-  * Update Method
+
+---
+
+
+
+## The implementation of OOP Principles in Game Development
+
+
+
+<figure>
+	<a href="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg"><img src="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg"></a>
+	<figcaption><a href="https://www.pexels.com/photo/mosaic-alien-on-wall-1670977/" title="Mosaic Alien on Wall by Francesco Ungaro">Mosaic Alien on Wall by Francesco Ungaro</a>.</figcaption>
+</figure>
+
+
+
+- Polymorphism
+- Inheritance
+- Virtual and Abstract Classes
 
 
 
 
+## Game-Specific Design Patterns
+
+- Game Loop
+- Double Buffer
+- Update Method
+
+## The use of <u>Design Patterns</u> in Game Development
+
+- Factory
+  - Being able to create object instances based on a string read from a file, e.g. NPCs, GUIs.
+  - Might not be as useful for be since this might imply some bigger programs, though it might be useful for other projects such as an RPG
+- Observer
+  - Renderable representation of, for example, the player, that listens to the logical representation of the player by checking the state of the player. This isolates the rendering logic from the game code itself. 
+  - I'm not sure of the direct implementation of this though I can imagine the "whole" character composed of both a RenderableObject and the GameObject.
+- State
+  - Store a game character's states such as walking, wandering, fleeing, with their own update methods and whatever data is required (wandering where, fleeing from what).
+  - http://gameprogrammingpatterns.com/state.html
+  - Possibly making a GameState stack
+- Composite
+  - Make a scene out of renderable objects or GUI elements.
+  - "Compose" objects into tree structures.
+  - Try to use this somehow
+- Chain of Responsibility
+- Command
+- Strategy
+- Template
 
 ---
 
