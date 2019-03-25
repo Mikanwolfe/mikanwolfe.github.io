@@ -94,6 +94,13 @@ If we stretch our definitions of *design patterns* a little, game design often i
 
 
 
+<figure>
+	<a href="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg"><img src="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg"></a>
+	<figcaption><a href="https://www.pexels.com/photo/mosaic-alien-on-wall-1670977/" title="Mosaic Alien on Wall by Francesco Ungaro">Mosaic Alien on Wall by Francesco Ungaro</a>.</figcaption>
+</figure>
+
+
+
 - Polymorphism
 - Inheritance
 - Virtual and Abstract Classes
