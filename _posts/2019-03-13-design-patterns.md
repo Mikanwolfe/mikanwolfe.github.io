@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Design Patterns for games in C#
+title: Design Patterns for games in c#
 date: 2019-03-14
 excerpt: "Delving into design patterns and their use in OOP"
 feature: https://images.pexels.com/photos/716661/pexels-photo-716661.jpeg
 tags: [engineering, programming, csharp, design patterns]
-project: true
 comments: true
 ---
 
