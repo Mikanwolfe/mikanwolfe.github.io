@@ -75,8 +75,8 @@ namespace pt2._2
             Item card = new Item(new string[] { "card", "ring" }, "worn", "A piece of yellowed-out card with folds, rips, and tears. The whole lot. It reads:" +
                 "\r\n\n'   You've lost something. It isn't just here, but also outside the black box.'");
             Item laptop = new Item(new string[] { "laptop", "is it?" }, "sleek", "A sleek and stylish laptop with a surprisingly clicky keyboard. A familiar star-atop-circle logo paints the back cover with scratched out words that are hard to make out. It seems to read " +
-                "'Nekomimi Cooperative'.\r\n\nAfter taking a while to boot, it opens to the Windows login screen with the user 'Maia', it requires a password.");
-			Item solution = new link("{cat}x.net/files/{girl}.png")
+                "'Nekomimi Cooperative'.\r\n\nAfter taking a while to boot, it opens to the Windows login screen with the user 'Look at VNDB', it requires a password.");
+			Item solution = new link("{cat}x.net/files/{girl}.wav")
             Bag bed = new Bag(new string[] { "bed" }, "big", "A bigger-than-life bed sits in the middle of this apartment room. Literally in the middle: everything else seemingly surrounds the bed. " +
                 "The bed seems awfully large for a single apartment room.",false);
             Bag teaTable = new Bag(new string[] { "table" }, "tea", "A tea table lined with an odd antique tablecloth with seemingly infinite supplies of tea and sweets. " +
