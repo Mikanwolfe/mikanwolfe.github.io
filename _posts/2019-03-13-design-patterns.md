@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design Patterns for games in c#
-date: 2019-03-14
+date: 2019-03-26
 excerpt: "Delving into design patterns and their use in OOP"
 feature: https://images.pexels.com/photos/716661/pexels-photo-716661.jpeg
 tags: [engineering, programming, csharp, design patterns]
@@ -84,6 +84,11 @@ If we stretch our definitions of *design patterns* a little, game design often i
   * Command
   * Strategy
   * Template
+* To Do for me:
+  * Abstract Factory/Factory for UI versions
+  * Composite for vehicle stats
+  * Singleton for factory and/or config?
+  * Game State/Stack 
 
 ---
 
