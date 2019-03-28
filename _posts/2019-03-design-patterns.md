@@ -109,7 +109,7 @@ The observer design pattern is used widely as event-driven programming due to th
 
 Prefer composition over inheritance. --  Unless you really need inheritance, don't use it.
 
-Composition composes of both interfaces (for casting, good as faux-inheritance) and object components ([the design pattern](http://gameprogrammingpatterns.com/component.html)). An important thing to remember is where we get components:
+Composition composes of both interfaces (for casting, good as faux-inheritance) and object components. An important thing to remember is where we get components:
 
 * If the object creates its own components
   * Object always has components it needs
