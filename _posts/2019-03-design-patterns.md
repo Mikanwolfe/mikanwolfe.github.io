@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Design Patterns for games in c#
-date: 2019-03-26
-excerpt: "Delving into design patterns and their use in OOP"
-feature: https://images.pexels.com/photos/716661/pexels-photo-716661.jpeg
+title: Artillery 3 and Design Patterns
+date: 2019-03-29
+excerpt: "The process and development of Artillery 3"
+feature: http://www.tanks-encyclopedia.com/wp-content/uploads/2016/04/hummel-late-version.jpg
 tags: [engineering, programming, csharp, design patterns]
 comments: true
 ---
@@ -57,7 +57,83 @@ For my High-Distinction (HD) project I plan to undertake for one of my programmi
 
 Artillery was the HD project for the preceding unit and therefore it felt reasonable to both re-write and extend on the concepts explored in Artillery. This post will be dedicated to the conceptualisation and the research I will be doing to realise Artillery 3 as a HD project.
 
+
+
+#### Version Information
+
+To simplify and seperate the different versions and iterations. The following format will be used to describe different versions:
+
+`iteration . minor - [e|r]`
+
+* Iteration: Major development milestone.
+* Minor: Build.
+* Experimental or Release: Build stability.
+  * Experimental encompasses straight up incomplete code.
+  * Release means it works.
+
+For example, 
+
+Iteration 1 Update 1 Experimental: `1.1-e`
+
+Iteration 5 Update 6 Release: `5.6-r
+
+#### Iteration 1
+
+
+
+
+
+
+
+---
+
 Design patterns are the programming equivalent to mathematical theorems: they're a great for paper warriors who like to explore the realm of the theoretical to solve a very specific problem, but it's difficult to find or recognise an appropriate situation to apply design patterns to.
+
+**State Design Pattern**
+
+[intro]
+
+States are useful as they allow for stronger adhesion to OOP principles. As states are their own class each state has access to only the information it needs.
+
+
+
+**Observer Design Pattern**
+
+* Acheivements!
+* Audio
+* UI Elements
+
+The observer design pattern is used widely as event-driven programming due to the nature of the observer pattern and it's actually baked into C# using the `event` keyword. See [this](https://www.tutorialsteacher.com/csharp/csharp-event) for a fairly good tutorial.
+
+ **Component Design Pattern**
+
+Prefer composition over inheritance. --  Unless you really need inheritance, don't use it.
+
+Composition composes of both interfaces (for casting, good as faux-inheritance) and object components ([the design pattern](http://gameprogrammingpatterns.com/component.html)). An important thing to remember is where we get components:
+
+* If the object creates its own components
+  * Object always has components it needs
+  * Harder to reconfigure
+* Object is provided components
+  * More flexible
+  * Decoupled from concrete component types (neutral)
+
+*Components communicating to each other*
+
+* Modifying the container object's state
+  * Input chances velocity, physics chances position based on velocity of parent.
+* Referring directly to each other
+  * Get one component to know about another component directly
+* Messaging
+  * I won't touch this.
+
+
+
+**Prototype Pattern**
+
+* Lots of the same kind of entities (variations of the same object)
+
+
 
 If we stretch our definitions of *design patterns* a little, game design often incorporates the following:
 
