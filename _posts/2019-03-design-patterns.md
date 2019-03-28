@@ -3,7 +3,6 @@ layout: post
 title: Artillery 3 and Design Patterns
 date: 2019-03-29
 excerpt: "The process and development of Artillery 3"
-feature: http://www.tanks-encyclopedia.com/wp-content/uploads/2016/04/hummel-late-version.jpg
 tags: [engineering, programming, csharp, design patterns]
 comments: true
 ---
@@ -109,7 +108,7 @@ The observer design pattern is used widely as event-driven programming due to th
 
 Prefer composition over inheritance. --  Unless you really need inheritance, don't use it.
 
-Composition composes of both interfaces (for casting, good as faux-inheritance) and object components. An important thing to remember is where we get components:
+Composition composes of both interfaces (for casting, good as faux-inheritance) and object components . An important thing to remember is where we get components:
 
 * If the object creates its own components
   * Object always has components it needs
