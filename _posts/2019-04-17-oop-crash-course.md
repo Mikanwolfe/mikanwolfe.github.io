@@ -3,7 +3,7 @@ layout: post
 title: "Object Oriented Concepts: Crash Course"
 date: 2019-04-17
 excerpt: "A crash course in Object Oriented Concepts. For 7.1P."
-feature:https://images.pexels.com/photos/1585891/pexels-photo-1585891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+feature:https://nekox.net/assets/img/nekomimi_71bg.jpg
 tags: [University, Object Oriented Programming, Artillery3]
 comments: true
 ---
