@@ -14,7 +14,13 @@ comments: true
 
 This is the pilot post for what'll hopefully be a series in the production process of a mechatronics project. Mechatronics Systems Design (MSD) is a project-based unit aimed at  developing a deeper understanding of integrated mechanical-electronic  (mechatronic) systems. This project involves three main disciplines:  Mechanical, Electronic, and Control Systems Engineering.
 
-(For the lack of a better name), the Robotic Arm Project aims to have  students develop and manufacture a Pick-and-Place Robotic arm within  the constraints of the use of DC Motor, Sensor, and the Microcontroller  (specifically PLC, or Programmable Logic Controller) provided. This task  aims to consolidate the understanding of Modern Control System Theory,  such as PID controllers and the feedback process to complete both the basic and advanced requirements.
+Despite the lack of a better name the Robotic Arm Project aims to have  students develop and manufacture a Pick-and-Place Robotic arm within  the constraints of the use of DC Motor, Sensor, and the Microcontroller  (specifically PLC, or Programmable Logic Controller) provided. This task  aims to consolidate the understanding of Modern Control System Theory,  such as PID controllers and the feedback process to complete both the basic and advanced requirements.
+
+
+<figure>
+<a href="https://nekox.net/assets/img/mechatronics-part-1/mechatronics_banner.jpg"><img src="https://nekox.net/assets/img/mechatronics-part-1/mechatronics_banner.jpg"></a>
+</figure>
+
 
 ## The Beginning
 
