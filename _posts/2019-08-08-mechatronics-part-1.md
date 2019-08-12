@@ -53,7 +53,7 @@ I personally own a 3D printer that's been gathering dust so the following post s
 ## Setting up 3D Printing
 
 <figure>
-<a href="https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png"><img src="https://nekox.net/assets/img/mechatronics-part-1/3dp1.jpg"></a>
+<a href="https://nekox.net/assets/img/mechatronics-part-1/3dp1.jpg"><img src="https://nekox.net/assets/img/mechatronics-part-1/3dp1.jpg"></a>
 </figure>
 
 ---
