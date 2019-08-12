@@ -18,6 +18,8 @@ This is the pilot post for what'll hopefully be a series in the production proce
 
 ## The Beginning
 
+`TODO: fix this slightly for a better structure`
+
 Sometimes it takes a lot of understanding to recognise something as hard. Not knowing how difficult this project *might* end up being could cost us a lot of time in the long run, so some preparation is key.
 
 Having established a group, the first few steps are simple: establish:
@@ -32,16 +34,26 @@ In addition, I've also created:
 
 Of course, a blank folder or repository won't help much. A set workflow is important -- Folders on the cloud drive and the Trello board are arranged with a "To Do / Doing / Done" sequence. Though it is useful to separate items into their subgroups (such as one for chassis or one for "code"), items can get lost quickly and things can be left unfinished. Having trialled both systems, I've personally found the TD/D/D setup to work more effectively as it ensures that no rock is unturned and collects all the resources to "do one thing" into one subfolder, reducing both the amount of clutter and searching any one person has to go through to perform a task.
 
-```mermaid
-graph LR
-td[To Do]-->d[Doing]
-d-->Done
-```
+<figure>
+<a href="https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png"><img src="https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png"></a>
+</figure>
 
-![1565307011264](https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png)
+## Overview of Task
+
+### Requirements
+
+### Constraints
+
+**Notably the construction methods:** Laser Cut MDF, however, there'll be a wait and only a one-ish time allowance to cut an A3 sheet. 
+
+I personally own a 3D printer that's been gathering dust so the following post should include the set-up and adjusting parameters for Cura and the few test prints I performed.
+
+
+
+## Setting up 3D Printing
 
 <figure>
-	<a href="https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png"><img src="https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png"></a>
+<a href="https://nekox.net/assets/img/mechatronics-part-1/1565307011264.png"><img src="https://nekox.net/assets/img/mechatronics-part-1/3dp1.jpg"></a>
 </figure>
 
 ---
