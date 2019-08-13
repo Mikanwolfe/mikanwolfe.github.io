@@ -14,9 +14,9 @@ comments: true
 
 ---
 
-<figure>
-<a href="https://nekox.net/assets/img/mechatronics-part-1/mechatronics_banner.jpg"><img src="https://nekox.net/assets/img/mechatronics-part-1/mechatronics_banner.jpg"></a>
-</figure>
+![Nekox Mechatronics Banner](https://nekox.net/assets/img/mechatronics-part-1/mechatronics_banner.jpg)
+
+
 
 This is the pilot post for what'll hopefully be a series in the production process of a mechatronics project. Mechatronics Systems Design (MSD) is a project-based unit aimed at  developing a deeper understanding of integrated mechanical-electronic  (mechatronic) systems. This project involves three main disciplines:  Mechanical, Electronic, and Control Systems Engineering.
 
@@ -85,16 +85,33 @@ The goal of this sort of system is to keep resources and tasks organised. This i
 
 From my [Hydrology Drone Project](https://github.com/Mikanwolfe/Hydrology-Drone-Zuiho), I had a 3D printer that was gathering a shocking amount of dust and was in dire need of some maintenance. The model of 3D printer was a really basic one from *ALDI's CocoonCreate*, launched in Australia some 4-5 years ago retailing for about \$400AUD (~\$271US).
 
-Since the software was a bit outdated, there were a few kinks to work out before I could fully utilise my 3D printer for this project. 
+Since the software was a bit outdated, there were a few kinks to work out before I could fully utilise my 3D printer for this project. The software that originally came with the printer (and subsequently contained configuration information for the printer) was [Cura Lulzbot Edition](https://www.lulzbot.com/cura). Given that this was supplied with the printer in 2016, the software is somewhat outdated with the number of features available. Updating to [Ultimaker Cura 4.2.1](https://ultimaker.com/software/ultimaker-cura) would give me access to hopefully more modern and updated software.
 
----
+> **Some Notes on 3D Printing:**
+>
+> Not all printers work the same; the process used in this project may differ slightly to significantly depending on your setup.
+>
+> In this case, the Nekomimi model was made in Sketchup (don't worry, later parts will be made in SOLIDWORKS) and then converted to .STL (Stereolithographic File Format) for processing with the *Splicing Software*.
+>
+> The Splicing software is used to convert 3D Models into Printer-Readable files. Here, I used Cura to convert the .STL files into .GCODE () files for the printer, which is then saved to a MicroSD card and read by the printer itself. It should be noted that certain printers have different starting and ending 'GCODE' (supplied by the manufacturer) for various reasons. 
 
-More to come!
+Over the course of a weekend, I cleaned the printer slightly and applied some more grease to the bearings (can never have too much) using some basic bearing grease from the local hardware store. I also did some printing on an old model of mine, a single cat-headphone-like... ear thingy. The result was the following:
 
-* The 3D printer had some filament stuck inside, I should've taken some pictures...
-* Filament is a bit old (exposed to air for 9+ months), so it's _reaaally_ brittle compared to normal filament
-* Cura 'Lulzbot' edition v.s. current edition of Cura! Results!
+![3D Printing results](https://nekox.net/assets/img/mechatronics-part-1/68416038_424633244927828_3113275836996780032_n.jpg)
 
----
+From left to right:
 
-This post may not be complete and has not been properly edited yet! 
+* The original Nekomimi file compiled in Cura Lulzbot in 2016;
+* The first attempt at Ultimaker Cura 4.2.1,  issues seemed to be a lack of plastic extrusion;
+* The second attempt at Ultimaker Cura 4.2.1, model broke. Issue seemed to stem from a lack of plastic extrusion and thin walls, along with badly printed infill;
+* The third attempt at printing with Ultimaker Cura 4.2.1, with increased wall thickness, reduced print speed (for better infill), and correctly dimensioned filament (originally set to 2.25mm when the CocoonCreate device runs off 1.75mm)
+
+An interesting observation is that the filament, after being exposed to outside air for well over 9 months, has become rather brittle. There are still printing artefacts on each model (such as some streaks showing a lack of plastic extrusion), however, the splicing software does seem to be working and the printer is showing some promise as a strong manufacturing method.
+
+Another observation is the failure method of the second attempt, showing the weakness of 3D printed parts. If parts are to fail, they typically fail at the interface between layers, where adhesion is the weakest. This will have to be taken into account when designing the robotic arm.
+
+## Final Thoughts
+
+Whilst the project seems a bit simple at times and other times not, 3D printing and a strong team set-up will hopefully provide a strong foundation for this project itself. I wonder if I'll be taking on the mechanical component given my access to and knowledge of 3D printing, that that's to be discussed amongst the team. 
+
+I don't exactly want to write twelve blog posts for each week during the semester, so the following posts might be a bit long or heavily simplified. Either way, there's more to come!
