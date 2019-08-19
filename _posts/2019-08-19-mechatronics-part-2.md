@@ -20,7 +20,7 @@ comments: true
 
 The mechatronics project is will underway now and we've received some new insights into the design of the device as well as the components in a nice big tub. This post will largely focus on the start of the mechatronics project along with some comments on design ideas and how the system works.
 
-![A scene of the Tub](https://nekox.net/assets/img/mechatronics-part-2/![Local disk filling up; hard drive almost empty](https://nekox.net/assets/img/mechatronics-part-2/explorer_BEGEr4YKbT.png))
+![A scene of the Tub](https://nekox.net/assets/img/mechatronics-part-2/IMG_20190819_112609.jpg)
 
 ---
 
@@ -45,21 +45,15 @@ It took a little while to get the myRIO replaced, and a bit longer to get the ri
 
 After the installation hiccups, development process was fairly straightforward. Working in a similar manner to Simulink's graphical interface. I'll spare you the boring development details, though a more thorough explanation will be provided later.
 
+## SOLIDWORKS Modelling
+
+Along with the electrical and control component, we'll also need to build the robotic arm and the base. To facilitate this, I modelled the servo and electromotor we had on hand since we did not know which specific models they were. It allows us to better visualise the final product and saves us the hassle from doing it later.
+
+![Servo.gif](https://nekox.net/assets/img/mechatronics-part-2/JBWvYO4Kmb.gif)
+
+![Electromagnet Model](https://nekox.net/assets/img/mechatronics-part-2/69162129_513482299398962_6224456107910234112_n.png)
 
 
-
-
-
-
-
-
-
-
-* We got the original myrio, 64b vs 32b issues
-* myrio got bricked, we got charlie
-* i spent the weekend working on getting some programming and modelling done
-* finished a proportional control and some basics on the programming side of things
-* finished a model of the servomotor and the electromagnet
 
 
 
