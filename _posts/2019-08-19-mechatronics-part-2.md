@@ -47,21 +47,18 @@ After the installation hiccups, development process was fairly straightforward. 
 
 ## SOLIDWORKS Modelling
 
-Along with the electrical and control component, we'll also need to build the robotic arm and the base. To facilitate this, I modelled the servo and electromotor we had on hand since we did not know which specific models they were. It allows us to better visualise the final product and saves us the hassle from doing it later.
+Along with the electrical and control component, we'll also need to build the robotic arm and the base. To facilitate this, I modelled the servo and electromotor we had on hand since we did not know which specific models they were. It allows us to better visualise the final product and saves us the hassle from doing it later. 
+
+The modelling process itself was fairly straightforward -- grab a pair of callipers and start measuring. Measure from multiple places, and make sure the measuring is good. The rest is simply the process of modelling in SOLIDWORKS since the system has it's own quirks. The following two images are the SOLIDWORKS models of the Servomotor and the Electromagnet. Of particular note, the electromagnet is asymmetric, protruding out about 1mm on one side to make space for the wiring.
 
 ![Servo.gif](https://nekox.net/assets/img/mechatronics-part-2/JBWvYO4Kmb.gif)
 
 ![Electromagnet Model](https://nekox.net/assets/img/mechatronics-part-2/69162129_513482299398962_6224456107910234112_n.png)
 
+## To Come:
 
+* Designs!
+* myRIO programming!
 
-
-
-
-
-
-
-
-
-## Final Thoughts
+This blog post will be updated in due time as more interesting information and developments surface along with more opportunities for discussion!
 
