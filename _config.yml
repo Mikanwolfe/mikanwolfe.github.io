@@ -2,8 +2,8 @@
 title:              nekox
 bio:                'robotics engineering, software design.'
 description:        "mikanwolfe's personal site"
-reading_time:       false
-words_per_minute:   200
+reading_time:       true
+words_per_minute:   150
 logo:               'assets/img/logo.png'
 background:         'assets/img/bg-resized.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
