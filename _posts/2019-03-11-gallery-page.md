@@ -2,7 +2,7 @@
 layout: post
 title: Gallery
 date: 2019-11-04
-project: true
+gallery: true
 excerpt: "A landing page for the gallery!"
 tags: [nekox, general]
 comments: false
