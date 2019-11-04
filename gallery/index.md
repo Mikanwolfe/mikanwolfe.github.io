@@ -7,7 +7,7 @@ feature: https://nekox.net/assets/img/gallery-blur.jpg
 comments: false
 ---
 
-## nekox artworks
+# nekox artworks
 
 by mikanwolfe
 
