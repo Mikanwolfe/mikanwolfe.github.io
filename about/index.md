@@ -2,7 +2,7 @@
 layout: page
 title: About nekox.net
 tags: [about, nekox, theme, moon]
-date: 2016-03-21
+date: 2019-11-04
 comments: false
 ---
 
@@ -10,13 +10,29 @@ comments: false
 
 **Welcome to nekox.net!**
 
-Mikanwolfe is an Engineering (Robotics)/Computer Science (Software) student currently studying at *Swinburne University of Techonolgy* in Melbourne, Australia.
+Stylised `nekox`, nekox.net is a portfolio website for Mikan "Mikanwolfe" Kikuchi (T. J.)
 
-[If you're reading this then the author has forgotten to include a more thorough bio for the about page.]
+Mikanwolfe is an Engineering (Robotics)/Computer Science (Software) student currently studying at *Swinburne University of Technology* in Melbourne, Australia. Currently a third-year student, Mikanwolfe is the recipient of the Vice-Chancellor's Excellence Scholarship and was awarded the New Colombo Plan (NCP) Scholarship as part of the Future Leaders Program.
 
-This site is both my personal site and blog about and related to projects and similar undertakings. This means that this site is a work in progress!
+Mikanwolfe has interned at Risked-Based Authentication provider *Caulis Inc.* in Japan, and was a exhibitor at Melbourne Museum's Top Designs 2017 with a Water Survey Drone.
+
+Mikanwolfe is currently the Secretary of the Swinburne Mechatronics Engineering Society.
+
+
+
+## A note on "nekox"
+
+The name 'nekox' in the context of this site, 'nekox.net', refers to content created by Mikanwolfe with derivative names such as "Nekox Systems" and "Nekox Industries" as fictional characters and is, in no way, shape or form, related to any real-life figures or companies. A good example of the name 'nekox' used in works is the *nekox-fingerprinter*, or similar works.
+
+"nekox" is an amalgamation of my laptop's device name: **Neko**mimi Cooperative Ape**x** 15, and is therefore pronounced "Neko-Eks". 
+
+
+
+
 
 ## Contact me
+
+The form below is powered by [formspree.io](https://formspree.io/) - you can also contact me via [LinkedIn](https://www.linkedin.com/in/jimmy-trac/) or [Github](https://github.com/Mikanwolfe).
 
 <form method="POST" action="https://formspree.io/contact@nekox.net">
   <input type="email" name="email" placeholder="Your email"> <br>  <br>
