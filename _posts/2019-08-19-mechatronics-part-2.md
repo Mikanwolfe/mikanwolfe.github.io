@@ -4,7 +4,7 @@ title: "Mechatronics Project Part 2"
 date: 2019-08-19
 excerpt: "The second iteration of the Robotic Arm Project!"
 feature: https://nekox.net/assets/img/mechatronics-part-2/67960546_2433543870251242_6139349436859416576_n.jpg
-tags: [University]
+tags: [University,MSD Robotic Arm]
 comments: false
 ---
 

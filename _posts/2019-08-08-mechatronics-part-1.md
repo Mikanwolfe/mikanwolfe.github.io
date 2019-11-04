@@ -4,7 +4,7 @@ title: "Mechatronics Project Part 1"
 date: 2019-08-08
 excerpt: "The start of a series of blog posts relating to the Robotic Arm Mechatronics Project"
 feature: https://nekox.net/assets/img/nekomimi_71bg.jpg
-tags: [University]
+tags: [University, MSD Robotic Arm]
 comments: false
 ---
 
