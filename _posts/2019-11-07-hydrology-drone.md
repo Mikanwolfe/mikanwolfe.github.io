@@ -3,7 +3,7 @@ layout: post
 title:  "Hydrology: Zuihou"
 date:   2019-11-07
 excerpt: "Melbourne Museum Top Designs: Hydrology Drone Zuihou"
-feature: {{ "/assets/img/zuihou/feature.jpg" | absolute_url }}
+feature: {{ /assets/img/zuihou/feature.jpg | absolute_url }}
 project: true
 tag:
 - Engineering
@@ -13,7 +13,7 @@ comments: false
 
 # Hydrology Drone *Zuihou*
 
-<center> <b>2017 | Systems Engineering | Melbourne Museum</b> </center>
+<b>2017 | Systems Engineering | Melbourne Museum</b>
 
 
 
@@ -31,3 +31,6 @@ comments: false
 </figure>
 <br>
 
+---
+
+In 2016, I was studying Systems Engineering Units 3/4 with my central project focusing on environmental impact. The challenge was to resolve issues of water quality in open bodies of water, notably, the tracking and assessment of water health and quality.
