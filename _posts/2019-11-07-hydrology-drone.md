@@ -13,7 +13,7 @@ comments: false
 
 # Hydrology Drone *Zuihou*
 
-2017 | Systems Engineering | Melbourne Museum
+2017 \| Systems Engineering \| Melbourne Museum
 
 
 
@@ -29,6 +29,13 @@ comments: false
 </figure>
 ---
 
+### Systems Engineering
+
 In 2016, I was studying Systems Engineering Units 3/4 with my central project focusing on environmental impact. The challenge was to resolve issues of water quality in open bodies of water, notably, the tracking and assessment of water health and quality.
 
 The resultant solution was a water-survey / water-quality / hydrology drone, *Zuihou*, after an aircraft carrier due to the design of the drone herself.
+
+### Melbourne Museums Top Designs
+
+Every year, Melbourne Museum, located in Victoria, Australia, hosts an event *Top Designs*, highlighting the best work from several disciplines, such as Product Design, Fashion Design, and notably, Systems Engineering. Of the thousands of students that apply, only about 10 are selected as Exhibitors, with three that are interviewed. 
+
