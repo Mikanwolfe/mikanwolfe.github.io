@@ -70,7 +70,8 @@ h3.title a {
 blockquote {
 	font-family:$alt-font;
 	font-style:italic;
-	border-left:8px solid $color_tundora;
+	color: $color_tundora;
+	border-left:8px solid $color_fuscous_gray;
 	padding-left:20px;
 	margin: 0;
 }
