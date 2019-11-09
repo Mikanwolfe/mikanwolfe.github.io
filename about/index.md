@@ -32,14 +32,14 @@ The form below is powered by [formspree.io](https://formspree.io/).
 <form method="POST" action="https://formspree.io/contact@nekox.net">
   <input class="formFields" type="email" name="email" placeholder="Contact Email"> <br>  <br>
   <textarea class="formFields" name="message" placeholder="Message"></textarea>  <br>  <br>
-  <button class="btn" type="submit">Send</button>
+  <button class="btn " type="submit">Send</button>
   <input type="hidden" name="_next" value="https://nekox.net/thanks.html" />
 </form>
+<br>
 
 
 
-
-## Theme
+---
 
 Nekox.net is powered by the lovely Moon theme by [TaylanTatli](https://github.com/TaylanTatli). Moon is licensed under the MIT license but Tatli deserves a lot more than a simple mention. My heartfelt thanks goes out to Tatli for creating such an amazing theme.
 
