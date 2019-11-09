@@ -37,7 +37,7 @@ The form below is powered by [formspree.io](https://formspree.io/) - you can als
 <form method="POST" action="https://formspree.io/contact@nekox.net">
   <input type="email" name="email" placeholder="Your email"> <br>  <br>
   <textarea name="message" placeholder="Message"></textarea>  <br>  <br>
-  <button type="submit">Send</button>
+  <button class="btn btn-success" type="submit">Send</button>
   <input type="hidden" name="_next" value="https://nekox.net/thanks.html" />
 </form>
 
