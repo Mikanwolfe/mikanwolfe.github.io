@@ -32,8 +32,9 @@ The form below is powered by [formspree.io](https://formspree.io/).
 <form method="POST" action="https://formspree.io/contact@nekox.net">
   <input class="formFields" type="email" name="email" placeholder="Contact Email"> <br>  <br>
   <textarea class="formFields" name="message" placeholder="Message"></textarea>  <br>
-  <button class="btn " type="submit" align = center>Send</button>
+  <button class="btn " type="submit">Send</button>
   <input type="hidden" name="_next" value="https://nekox.net/thanks.html" />
+  <input type="hidden" name="_subject" id="email-subject" value="Contact">
 </form>
 <br>
 
