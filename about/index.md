@@ -2,7 +2,9 @@
 layout: page
 title: About nekox.net
 tags: [about, nekox, theme, moon]
+feature: https://nekox.net/assets/img/nekomimi_71bg.jpg
 date: 2019-11-04
+modified: 2019-11-09
 ---
 
 <center><b>nekox.net</b> is a portfolio website</center>
@@ -15,26 +17,22 @@ Mikanwolfe has interned at Risked-Based Authentication provider *Caulis Inc.* in
 
 Mikanwolfe is currently the Secretary of the Swinburne Mechatronics Engineering Society.
 
-
+<br>
 
 ## A note on "nekox"
 
-The name 'nekox' in the context of this site, 'nekox.net', refers to content created by Mikanwolfe with derivative names such as "Nekox Systems" and "Nekox Industries" as fictional characters and is, in no way, shape or form, related to any real-life figures or companies. A good example of the name 'nekox' used in works is the *nekox-fingerprinter*, or similar works.
-
 "nekox" is an amalgamation of my laptop's device name: **Neko**mimi Cooperative Ape**x** 15, and is therefore pronounced "Neko-Eks". 
 
-
-
-
+<br>
 
 ## Contact me
 
 The form below is powered by [formspree.io](https://formspree.io/).
 
 <form method="POST" action="https://formspree.io/contact@nekox.net">
-  <input class="formFields" type="email" name="email" placeholder="Your email"> <br>  <br>
-  <textarea name="message" placeholder="Message"></textarea>  <br>  <br>
-  <button class="btn btn-success" type="submit">Send</button>
+  <input class="formFields" type="email" name="email" placeholder="Contact Email"> <br>  <br>
+  <textarea class="formFields" name="message" placeholder="Message"></textarea>  <br>  <br>
+  <button class="btn" type="submit">Send</button>
   <input type="hidden" name="_next" value="https://nekox.net/thanks.html" />
 </form>
 
