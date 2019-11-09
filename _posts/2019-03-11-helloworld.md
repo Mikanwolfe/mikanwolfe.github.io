@@ -2,7 +2,8 @@
 layout: post
 title: Github Pages, Jerkyll, and a cat!?
 date: 2019-03-10
-excerpt: "Setting up your own site with Google Domains and GitHub Pages"
+modified: 2019-11-09
+excerpt: "Starting up Nekox.net"
 tags: [nekox, general]
 comments: false
 ---
