@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "University Templates"
-date: 2019-08-19
+date: 2019-11-15
 excerpt: "University Templates for report writing"
 feature: https://nekox.net/assets/img/mechatronics-part-2/67960546_2433543870251242_6139349436859416576_n.jpg
 tags: [University, Template]
-comments: false
+comments: true
 ---
 
 Report writing is commonplace within university -- especially within the Science, Technology, Engineering, and Mathematics (STEM) fields. To speed up the writing process and the overall quality of reports, we've devised templates that take into account common conventions and designs used by academics.
