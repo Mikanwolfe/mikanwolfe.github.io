@@ -4,7 +4,7 @@ title: "University Templates"
 date: 2019-11-15
 modified: 2019-11-15
 excerpt: "University Templates for report writing"
-feature: https://nekox.net/assets/features/aaron-burden-y02jEX_B0O0-unsplash.jpg/
+feature: https://nekox.net/assets/img/features/aaron-burden-y02jEX_B0O0-unsplash.jpg/
 tags: [University, Template]
 comments: true
 ---
