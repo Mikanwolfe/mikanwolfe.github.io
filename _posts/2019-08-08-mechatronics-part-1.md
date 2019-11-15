@@ -2,10 +2,11 @@
 layout: post
 title: "Mechatronics Project Part 1"
 date: 2019-08-08
+modified: 2019-11-09
 excerpt: "The start of a series of blog posts relating to the Robotic Arm Mechatronics Project"
 feature: https://nekox.net/assets/img/nekomimi_71bg.jpg
-tags: [University]
-comments: true
+tags: [University, MSD Robotic Arm]
+comments: false
 ---
 
 # Mechatronics Project: Robotic Arm
@@ -87,13 +88,8 @@ From my [Hydrology Drone Project](https://github.com/Mikanwolfe/Hydrology-Drone-
 
 Since the software was a bit outdated, there were a few kinks to work out before I could fully utilise my 3D printer for this project. The software that originally came with the printer (and subsequently contained configuration information for the printer) was [Cura Lulzbot Edition](https://www.lulzbot.com/cura). Given that this was supplied with the printer in 2016, the software is somewhat outdated with the number of features available. Updating to [Ultimaker Cura 4.2.1](https://ultimaker.com/software/ultimaker-cura) would give me access to hopefully more modern and updated software.
 
-> **Some Notes on 3D Printing:**
->
-> Not all printers work the same; the process used in this project may differ slightly to significantly depending on your setup.
->
-> In this case, the Nekomimi model was made in Sketchup (don't worry, later parts will be made in SOLIDWORKS) and then converted to .STL (Stereolithographic File Format) for processing with the *Splicing Software*.
->
-> The Splicing software is used to convert 3D Models into Printer-Readable files. Here, I used Cura to convert the .STL files into .GCODE () files for the printer, which is then saved to a MicroSD card and read by the printer itself. It should be noted that certain printers have different starting and ending 'GCODE' (supplied by the manufacturer) for various reasons. 
+Not all printers work the same; the process used in this project may differ slightly to significantly depending on your setup.
+{: .notice}
 
 Over the course of a weekend, I cleaned the printer slightly and applied some more grease to the bearings (can never have too much) using some basic bearing grease from the local hardware store. I also did some printing on an old model of mine, a single cat-headphone-like... ear thingy. The result was the following:
 

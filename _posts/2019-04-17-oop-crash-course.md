@@ -5,7 +5,7 @@ date: 2019-04-23
 excerpt: "A crash course in Object Oriented Concepts. For 7.1P"
 feature: https://nekox.net/assets/img/nekomimi_71bg.jpg
 tags: [University, Object Oriented Programming, Artillery3]
-comments: true
+comments: false
 ---
 
 # Object Oriented Programming: Crash Course

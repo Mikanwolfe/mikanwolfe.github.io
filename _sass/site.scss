@@ -107,7 +107,7 @@ body {
 	background: $white;
 	color: $color_tuatara;
 	padding: 2em;
-	border-radius: 3px;
+	border-radius: 2px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
@@ -116,6 +116,16 @@ body {
 	    box-shadow: none;
 	}
 }
+
+.formFields {
+	width: 75%;
+	border-radius: 3px;
+	border-color: $white;
+	box-shadow: 0 0 3px 0 rgba($color_shark,0.3);
+	float: center;
+  }
+  
+
 #disqus_thread {
 	width: 75%;
 	max-width: 1100px;
@@ -178,6 +188,11 @@ header .entry-meta {
 .entry-title a {
     text-decoration: none;
 }
+
+.update-footer {
+	text-align: center;
+}
+
 .entry-tags {
 	display: block;
     margin-top: 1rem;

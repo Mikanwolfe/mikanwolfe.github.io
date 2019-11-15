@@ -2,10 +2,10 @@
 layout: post
 title: "Mechatronics Project Part 2"
 date: 2019-08-19
-excerpt: "The start of a series of blog posts relating to the Robotic Arm Mechatronics Project"
+excerpt: "The second iteration of the Robotic Arm Project!"
 feature: https://nekox.net/assets/img/mechatronics-part-2/67960546_2433543870251242_6139349436859416576_n.jpg
-tags: [University]
-comments: true
+tags: [University,MSD Robotic Arm]
+comments: false
 ---
 
 # Mechatronics Project: Robotic Arm
