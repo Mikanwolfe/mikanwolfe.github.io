@@ -1,30 +1,21 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+# nekox.net
 
-## Theme by [taylantali](https://github.com/TaylanTatli)
+Student, Robotics Engineering, Software Design, Swinburne University Of Technology.
 
-######(If you like this theme or using it, please give a :star: for motivation.)
+Secretary of the Swinburne Mechatronics Engineering Society.
 
-**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
+## Site
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+[nekox.net](https://nekox.net) is a personal porfolio site / blog for mikanwolfe, with modifications to the Moon theme.
 
-## Preview
+The purpose of nekox.net is to distribute information and resources freely and openly, with posts centering around robotics engineering, projects, and software design. It does take quite a lot of work to write posts and pages -- and notably to upload images -- so it does take a little while to update posts.
 
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
+The goal of nekox.net is to build a repository of knowledge and resources over time, with the goal of bringing more of the 'deeper end' of engineering, robotics, and software design to public light.
 
-See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
+## Contact
 
-## Getting Started
+If you have any questions, concerns, or queries, you can contact me via the [about page](https://nekox.net/about/) or through GitHub directly.
 
-To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
+---
+
+nekox.net utilises the **[Moon](https://taylantatli.github.io/Moon)** and is powered by **[Jekyll](https://jekyllrb.com/)**.
