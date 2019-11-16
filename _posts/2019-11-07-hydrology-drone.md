@@ -18,8 +18,6 @@ comments: false
 
 
 
-<br>
-
 <figure>
 	<a href="{{ "/assets/img/zuihou/firefox_NmmxNY1d9A.jpg" | absolute_url }}"><img src="{{ "/assets/img/zuihou/firefox_NmmxNY1d9A.jpg" | absolute_url }}"></a>
 	<figcaption><a href="{{ "/assets/img/zuihou/firefox_NmmxNY1d9A.jpg" | absolute_url }}" title="Zuihou in Melbourne Museum">Zuihou in Melbourne Museum</a>.</figcaption>
@@ -50,5 +48,7 @@ Every year, Melbourne Museum, located in Victoria, Australia, hosts an event *To
 * Sensors are housed in 3D printed  enclosures and mounts
 * Entire system is mounted within a boat, capable of remote control
 
-
-
+{% capture images %}
+	{{ "/assets/img/zuihou/firefox_NmmxNY1d9A.jpg" | absolute_url }}
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=1 %}
