@@ -14,9 +14,9 @@ The goal of nekox.net is to build a repository of knowledge and resources over t
 
 ## nekox.net screenshots
 
-[!screenshot of nekox.net](https://nekox.net/assets/img/readme/firefox_GdBBGDll9Q.png)
+![screenshot of nekox.net](https://nekox.net/assets/img/readme/firefox_GdBBGDll9Q.png)
 
-[!screenshot of nekox.net](https://nekox.net/assets/img/readme/firefox_tAW7STW1wO.png)
+![screenshot of nekox.net](https://nekox.net/assets/img/readme/firefox_tAW7STW1wO.png)
 
 ## Contact
 
