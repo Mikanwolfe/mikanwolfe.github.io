@@ -12,6 +12,12 @@ The purpose of nekox.net is to distribute information and resources freely and o
 
 The goal of nekox.net is to build a repository of knowledge and resources over time, with the goal of bringing more of the 'deeper end' of engineering, robotics, and software design to public light.
 
+## nekox.net screenshots
+
+[!screenshot of nekox.net](https://nekox.net/assets/img/readme/firefox_GdBBGDll9Q.png)
+
+[!screenshot of nekox.net](https://nekox.net/assets/img/readme/firefox_tAW7STW1wO.png)
+
 ## Contact
 
 If you have any questions, concerns, or queries, you can contact me via the [about page](https://nekox.net/about/) or through GitHub directly.
