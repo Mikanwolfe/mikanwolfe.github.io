@@ -1,17 +1,18 @@
 ---
-layout: post
-title:  "Hydrology: Zuihou"
-date:   2019-11-07
-excerpt: "Melbourne Museum Top Designs: Hydrology Drone Zuihou"
-feature: https://nekox.net/assets/img/zuihou/feature.jpg
-project: true
+layout: 	post
+title:  	"Hydrology Drone: Zuihou"
+date:		2019-11-07
+modified: 	16-11-2019
+excerpt: 	"Melbourne Museum Top Designs: Hydrology Drone Zuihou"
+feature: 	https://nekox.net/assets/img/zuihou/feature.jpg
+project: 	true
 tag:
 - Engineering
 - Hydrology Drone Zuihou
 comments: false
 ---
 
-# Hydrology Drone *Zuihou*
+
 
 2017 \| Systems Engineering \| Melbourne Museum
 
@@ -38,4 +39,16 @@ The resultant solution was a water-survey / water-quality / hydrology drone, *Zu
 ### Melbourne Museums Top Designs
 
 Every year, Melbourne Museum, located in Victoria, Australia, hosts an event *Top Designs*, highlighting the best work from several disciplines, such as Product Design, Fashion Design, and notably, Systems Engineering. Of the thousands of students that apply, only about 10 are selected as Exhibitors, with three that are interviewed. 
+
+---
+
+## Highlights
+
+* Powered by an Arduino-Compatible Freetronics EtherTen board
+* Programmed in C++ using the Arduino IDE
+* Two sensors built from the ground up: Salinity and Turbidity
+* Sensors are housed in 3D printed  enclosures and mounts
+* Entire system is mounted within a boat, capable of remote control
+
+
 
