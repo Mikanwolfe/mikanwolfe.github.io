@@ -1,7 +1,8 @@
 ---
 layout: project
-title: nekox Projects
+title: Nekox Projects
 excerpt: "nekox projects"
+feature: https://nekox.net/assets/img/features/dark-veryhighblur.jpg
 comments: false
 ---
 
