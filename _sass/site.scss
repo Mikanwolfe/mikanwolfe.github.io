@@ -207,6 +207,13 @@ header .entry-meta {
     float: right;
     text-align: right;
 }
+
+.post-list-feature {
+    max-width: 20%;
+    float: inline-end;
+    margin-right: 2rem;
+}
+
 .feature {
     @include transition(.5s);
     @media #{$small} {
