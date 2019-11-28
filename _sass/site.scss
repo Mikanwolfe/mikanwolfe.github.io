@@ -209,9 +209,14 @@ header .entry-meta {
 }
 
 .post-list-feature {
-    max-width: 20%;
+	max-width: 20%;
+	color: white;
     float: inline-end;
-    margin-right: 2rem;
+	margin-right: 2rem;
+	width: 220px;
+  	height: 130px;
+  	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .feature {
