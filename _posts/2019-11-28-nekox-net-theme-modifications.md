@@ -26,7 +26,7 @@ The intent behind nekox.net was to provide a platform for the discussion and dis
 
 The Moon Theme was intended to be a clean, one-column experience that focuses on the delivery of content. The first step was to expand on this slightly due to the increased use of maths, code, and image features cluttering up posts. The expanding is quite literal -- with the width of the nekox columns increased to a little over 1100px compared to the original 850px. 
 
-{% highlight css %}
+{% highlight scss %}
 .wrapper {
 	width: 75%;
 	max-width: 1150px;
