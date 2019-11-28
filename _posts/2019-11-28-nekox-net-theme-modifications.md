@@ -4,7 +4,7 @@ title: "Modifications to the Moon-based Nekox Theme"
 date: 2019-11-27
 modified: 2019-11-27
 excerpt: "nekox modificatioons to the Moon theme and the process of not knowing web design"
-feature: https://nekox.net/assets/features/nekox-site-source-code.jpg
+feature: https://nekox.net/assets/img/features/nekox-site-source-code.jpg
 tags: [nekox, web development, general]
 comments: true
 ---
