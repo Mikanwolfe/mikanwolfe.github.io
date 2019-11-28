@@ -14,6 +14,8 @@ This site, **nekox.net**, has evolved quite a lot within the past year, from a s
 
 The intent behind nekox.net was to provide a platform for the discussion and distribution of my mechatronics- and software-related projects; along with other opportunities such as the Swinburne Mechatronics Engineering Society's site under a nekox subdomain ([smes.nekox.net](https://smes.nekox.net)). This would group all the work I've done under one major domain - nekox - for both consistency and aesthetic reasons.
 
+Yes - the feature at the top of this post is indeed a picture of source code for this site.
+
 ---
 
 ## The Moon Theme
