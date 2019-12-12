@@ -207,6 +207,21 @@ header .entry-meta {
     float: right;
     text-align: right;
 }
+
+.post-list-feature {
+	max-width: 30%;
+	color: white;
+	opacity: 0.8;
+    float: inline-end;
+	margin-right: -1rem;
+	width: 300px;
+	height: 130px;
+	object-fit: cover;
+  	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+
 .feature {
     @include transition(.5s);
     @media #{$small} {
