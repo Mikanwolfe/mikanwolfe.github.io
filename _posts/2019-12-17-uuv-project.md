@@ -29,6 +29,10 @@ Plus, submarines are just fascinating! The project here is best described as *ha
 {% endcapture %}
 {% include gallery images=images caption="NXiS Kitakami in her final stages" cols=1 %}
 
+---
+
+
+
 # NXiS Kitakami
 
 Describing the project as the "Submarine Project" is tiresome and no fun. In following with the nekox theme, the ship prefix used will be 'NXiS' or **N**eko**X** **I**ntegrated **S**hip. The first ship of the class was designated *Kitakami*, translating to *Northern God*. 
@@ -70,7 +74,18 @@ The key focuses of the Kitakami-class submarines are the following:
 
 ---
 
-## Building a Boat
+## Making a Half-Boat-Half-Submarine
+
+One of the key aspects I wanted to bring into the project was the focus on surface performance over underwater performance. That is, *Kitakami* is first and foremost a boat, that just happens to be capable of rising up after sinking. With this in mind, it was a quick trip to the old archives to find resources on World War 2 Submarines designed after a similar philosophy (albeit due to other limitations). 
+
+
+
+{% capture images %}
+	{{ "/assets/img/project-maia/1009754-i.jpg" | absolute_url }}
+{% endcapture %}
+{% include gallery images=images caption="The profile of the Imperial Japanese I-400-Class Submarine" cols=1 %}
+
+
 
 
 
