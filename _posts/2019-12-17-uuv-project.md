@@ -2,9 +2,9 @@
 layout: post
 title: "The Submarine Project"
 project: true
-date: 2019-08-19
-modified: 2019-12-13
-excerpt: "Part 1: The motivations and first steps of the Submarine Project"
+date: 2019-12-17
+modified: 2019-12-17
+excerpt: "Making a Scientific Unmanned Underwater Vehicle from Scratch"
 feature: https://nekox.net/assets/img/submarine/type-2.jpg
 tags: [Submarine, Mechatronics, Project]
 comments: true
@@ -14,17 +14,36 @@ comments: true
 
 **This post is a work in progress!**
 
+<br>
+
 Drones are a fascinating topic and have become very pervasive throughout military and civilian sectors. Though the word *drone* is thrown around a lot, in the technology space it typically refer to Unmanned Aerial Vehicles (UAVs), such as the quintessential quadcopter. There are many, many uses for UAVs, notably, they allow the survey, navigation, and inspection of uncertain or tight locations without risking human life (Kendoul, 2012). Of course, there are a number of limitations with UAV technology, with one of the key limitations being the weight capacity of rotorcraft drone systems.
 
 One of my interests over the years has been water-based or underwater drones, or more formally *Unmanned Underwater Vehicles* (UUVs) stemming from a long-standing interest in all things military and maritime. Given the potential for long-range surveys of oceanic health, mapping in detail the topology of the seafloor, and the extended study of the impacts of climate change on our oceans, there are a significant number of motivations to pursue advances and the state-of-the-art in UUV technology.
 
 Plus, submarines are just fascinating! The project here is best described as *half-boat half-submarine and totally awesome!*
 
+
+
+{% capture images %}
+	{{ "/assets/img/submarine/kitakami-mostlydone.jpg" | absolute_url }}
+{% endcapture %}
+{% include gallery images=images caption="NXiS Kitakami in her final stages" cols=1 %}
+
 # NXiS Kitakami
 
-Describing the project as the "Submarine Project" is tiresome and no fun. In following with the nekox theme, the ship prefix used will be 'NXiS' or **N**eko**X** **I**ntegrated **S**hip. The first ship of the class was designated *Kitakami*, translating to *Northern God*.
+Describing the project as the "Submarine Project" is tiresome and no fun. In following with the nekox theme, the ship prefix used will be 'NXiS' or **N**eko**X** **I**ntegrated **S**hip. The first ship of the class was designated *Kitakami*, translating to *Northern God*. 
 
-### Purpose
+This post will be broken down into the following sections:
+
+* The purpose of the project;
+* The motivations of the project;
+* 
+
+
+
+
+
+## Purpose
 
 The primary purpose of the Kitakami-class submarine is to facilitate the mounting and operation for scientific instruments on-board and within large, open bodies of water, for the purpose of research and scientific endeavour. 
 
@@ -43,7 +62,19 @@ The key focuses of the Kitakami-class submarines are the following:
   * The ship should be able to submerge for a "reasonable" amount of time. This doesn't imply that the ship should stay submerged, however, the ability *to* submerge is crucial, otherwise, it's a glorified boat;
   * The ship must be able to operate underwater, notably, be resilient and capable of diving to certain depths;
   * The ship should have fail-safe systems in the case of water breaches;
-  * 
+* 
+
+## Motivations
+
+
+
+---
+
+## Building a Boat
+
+
+
+
 
 
 
