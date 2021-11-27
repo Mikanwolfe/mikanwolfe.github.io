@@ -84,6 +84,10 @@ a.navbar-item.is-active {
         min-width: 25vmax;
         margin: 0.5rem;
     }
+
+    .column {
+        flex-grow: 1;
+    }
 }
 
 #contact {
