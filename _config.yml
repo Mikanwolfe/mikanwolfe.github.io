@@ -15,10 +15,10 @@ site-image: https://nekox.net/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Portfolio, Nekox
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: https://nekox.net/favicon-32x32.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://nekox.net/assets/images/main.jpg
+heroimage: https://nekox.net/assets/images/main-dark.jpg.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
