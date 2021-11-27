@@ -1,11 +1,13 @@
 ---
+title: "Object Oriented Programming: Crash Course"
 layout: post
-title: "Object Oriented Concepts: Crash Course"
-date: 2019-04-23
-excerpt: "A crash course in Object Oriented Concepts. For 7.1P"
-feature: https://nekox.net/assets/img/nekomimi_71bg.jpg
-tags: [University, Object Oriented Programming, Artillery3]
-comments: false
+post-image: "https://nekox.net/assets/images/oopcc.jpg"
+author: Mikanwolfe
+description: Object-Oriented Programming, like all other paradigms, is quite a difficult concept to grasp. Here we'll go through a thorough but concise explanation of OOP concepts and principles.
+tags:
+- programming
+- university
+- object-oriented programming
 ---
 
 # Object Oriented Programming: Crash Course
