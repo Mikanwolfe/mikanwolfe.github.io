@@ -30,8 +30,10 @@ layout: compress
             <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
             <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by {{page.author}}</b>
-              </a>
+              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by {{page.author}}
+              {% if page.update_date%}
+                <br>Last updated on <b>{{ page.update_date | date: "%-B %d, %Y" }}</b>
+              {% endif %}
             </p>
             {%- assign tags = page.tags -%}
             {%- unless tags.size == 0 -%}
