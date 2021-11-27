@@ -63,10 +63,11 @@ a.navbar-item.is-active {
 }
 .title {
     margin: auto 0.75rem!important;
-    color: white !important;
+    color: black !important;
 }
 .subtitle {
     letter-spacing: 0.25rem;
+    color: black !important;
 }
 
 #about {
@@ -191,7 +192,7 @@ a.navbar-item.is-active {
     .button {
         transition: all 0.25s ease;
         &:focus {
-            outline: 0.25rem solid white;
+            outline: 0.25rem solid black;
         }
 
         border: none;
