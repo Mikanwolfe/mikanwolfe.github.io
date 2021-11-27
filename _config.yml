@@ -33,8 +33,8 @@ reddit_username:
 behance_username: 
 dribbble_username: 
 spotify_username: 
-#  https://www.pixiv.net/en/users/
 pixiv_username: 13646231
+deviantart_username:
 artstation_username:
 
 # Google Analytics
@@ -45,6 +45,7 @@ disqus-shortname:
 
 # Name of the Author
 author-name: Mikanwolfe
+author-name-id: JTRAC
 # URL for the Image of the Author
 author-image: https://avatars.githubusercontent.com/u/17631515
 # 60 Words About the Author
