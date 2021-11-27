@@ -18,7 +18,7 @@ site-keywords: Site, Portfolio, Nekox
 favicon-url: https://nekox.net/favicon-32x32.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://nekox.net/assets/images/main.jpg
+heroimage: https://nekox.net/assets/images/main-white.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -48,7 +48,7 @@ author-name: Mikanwolfe
 # URL for the Image of the Author
 author-image: https://avatars.githubusercontent.com/u/17631515
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: "B. Mechatronics (Hons.) & B. Comp Sci (Software Design) @ Swinburne University of Technology \n newline"
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://nekox.net
 

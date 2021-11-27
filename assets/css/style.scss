@@ -57,12 +57,13 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.55;
+        opacity: 1;
         content: "";
     }
 }
 .title {
     margin: auto 0.75rem!important;
+    color: white !important;
 }
 .subtitle {
     letter-spacing: 0.25rem;
