@@ -1,0 +1,10 @@
+<div class="hero-foot">
+    <div class="container">
+        {% if include.delay %}
+        <a href="{{site.url}}{{site.baseurl}}/{{ include.link }}" class="has-text-centered is-black"><i class="fa fa-angle-down fa-lg is-black icon-down animate__animated animate__delay-5s animate__fadeInUp"></i></a>
+        {% else %}
+        <a href="{{site.url}}{{site.baseurl}}/{{ include.link }}" class="has-text-centered is-black"><i class="fa fa-angle-down fa-lg is-black icon-down animate__animated animate__fadeInUp"></i></a>
+        {% endif %}
+        <br> &nbsp;
+    </div>
+</div>

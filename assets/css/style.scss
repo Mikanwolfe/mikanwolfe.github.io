@@ -3,6 +3,11 @@
 
 @import "main.scss";
 
+/* All delay classes will take half the time to start */
+:root {
+    --animate-delay: 0.5s;
+  }
+
 #navbar {
     opacity: 0.95;
 }
@@ -37,6 +42,84 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
+#projects {
+    .svg-wrapper {
+        height: 60px;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        
+        width: 320px;
+      }
+      
+      .shape {
+        fill: transparent;
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+        stroke: #083a37;
+      }
+      
+      .text {
+        color: #000;
+        font-family: 'Roboto Condensed';
+        font-size: 22px;
+        letter-spacing: 8px;
+        line-height: 32px;
+        position: relative;
+        top: -48px;
+      }
+      
+      @keyframes draw {
+        0% {
+          stroke-dasharray: 140 540;
+          stroke-dashoffset: -474;
+          stroke-width: 8px;
+        }
+        100% {
+          stroke-dasharray: 760;
+          stroke-dashoffset: 0;
+          stroke-width: 2px;
+        }
+      }
+      
+      .svg-wrapper:hover .shape {
+        -webkit-animation: 0.5s draw linear forwards;
+        animation: 0.5s draw linear forwards;
+      }
+
+      .columns {
+        .column {
+            border-radius: 0.5rem;
+            .image {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    #project-card {
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        transform: scale(0.95);
+        transition: all 0.5s ease;
+        margin-bottom: 0.5rem !important;
+        display: inline-table;
+        &:hover {
+            transform: scale(0.975);
+        }
+    }
+    .card {
+        transition: all 0.25s ease;
+        &:hover {
+            background-color: rgba($color: #000000, $alpha: 0.90)!important;
+        }
+    }
+}
+
 
 #hero {
     background: rgb(255, 255, 255);
@@ -61,6 +144,22 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+
+.icon-down {
+    color: rgba(12, 12, 12, 0.527) !important;
+    transition: all 0.25s ease;
+    &:hover {
+        color: rgba($color: #000000, $alpha: 0.90)!important;
+    }
+}
+
+.is-classy {
+    font-size: 4rem !important;
+    background: -moz-linear-gradient(0deg, rgba(245, 148, 223, 1) 45%, rgba(126, 192, 247, 1) 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .title {
     margin: auto 0.75rem!important;
     color: black !important;
@@ -68,6 +167,17 @@ a.navbar-item.is-active {
 .subtitle {
     letter-spacing: 0.25rem;
     color: black !important;
+}
+
+#hero {
+    .title {
+        color: rgba(0, 0, 0, 0.856) !important;
+        text-shadow: 2px 2px 10px rgba(31, 31, 31, 0.5);
+    }
+    .subtitle {
+        color: rgba(0, 0, 0, 0.856) !important;
+        text-shadow: 2px 2px 10px rgba(31, 31, 31, 0.5);
+    }
 }
 
 #about {
@@ -87,7 +197,7 @@ a.navbar-item.is-active {
 
     .column {
         flex-grow: 1;
-        align-content: flex-start
+        align-content: flex-start;
     }
 }
 
@@ -260,38 +370,6 @@ a.navbar-item.is-active {
             text-decoration: underline;
             font-weight: bolder;
             color: white;
-        }
-    }
-}
-
-#project {
-    .columns {
-        .column {
-            border-radius: 0.5rem;
-            .image {
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-        }
-    }
-
-    #project-card {
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        transform: scale(0.95);
-        transition: all 0.5s ease;
-        margin-bottom: 0.5rem !important;
-        display: inline-table;
-        &:hover {
-            transform: scale(0.975);
-        }
-    }
-    .card {
-        transition: all 0.25s ease;
-        &:hover {
-            background-color: rgba($color: #000000, $alpha: 0.90)!important;
         }
     }
 }

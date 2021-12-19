@@ -7,19 +7,32 @@ layout: compress
 {% include head.html %}
 
 <body>
-    <section class="hero is-fullheight has-text-centered has-background-black-ter">
+    {% include navbar.html %}
+    <section class="hero is-fullheight has-text-centered has-background-white-ter">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-1 is-uppercase has-text-weight-bold has-text-white">
-                    {{page.title}}
+                <h1 class="title is-1 is-uppercase has-text-weight-bold has-text-white is-classy">
+                    404
                 </h1>
+                
+
+                <div class="has-text-centered is-black is-size-7">
+                    PAGE NOT FOUND
+                </div>
                 <h3 class="is-uppercase has-text-weight-medium is-marginless has-text-grey-light">
-                    {{content}}
+                    
                 </h3>
                 <hr>
+                
+                <div class="has-text-centered is-black">
+                    Oops! <br>
+                    Looks like we lost a page! This page doesn't exist, or isn't available.
+                    <br>
+                </div>
+                <br>
                 <div class="columns is-marginless is-inline-flex-desktop">
                     <a href="{{site.url}}{{site.baseurl}}/"
-                        class="button is-white column is-rounded is-outlined is-uppercase has-text-weight-normal">Home</a>
+                        class="button is-black column is-rounded is-outlined has-text-weight-normal">Time to head home!</a>
                     </a>
                 </div>
             </div>
@@ -28,3 +41,5 @@ layout: compress
 </body>
 
 </html>
+
+
