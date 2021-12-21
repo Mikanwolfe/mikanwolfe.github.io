@@ -154,8 +154,14 @@ a.navbar-item.is-active {
 }
 
 .is-classy {
-    font-size: 4rem !important;
     background: -moz-linear-gradient(0deg, rgba(245, 148, 223, 1) 45%, rgba(126, 192, 247, 1) 55%);
+    background-clip: border - text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.is-classy-left {
+    background: -moz-linear-gradient(0deg, rgb(172, 106, 156) 0%, rgb(105, 202, 219) 30%);
     background-clip: border - text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
