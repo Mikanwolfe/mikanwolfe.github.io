@@ -21,7 +21,7 @@ Powered by [Jekyll](https://jekyllrb.com/), which itself is based on the [JamSta
 
 ### WhatATheme Credits
 * [Sneha Omer](http://sassyecoder.github.io/)
-* [Harsh Trivedi](http://harsh98trivedi.github.io/)g
+* [Harsh Trivedi](http://harsh98trivedi.github.io/)
 
 ### License
 The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
