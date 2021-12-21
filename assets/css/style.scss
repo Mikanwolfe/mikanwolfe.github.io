@@ -8,6 +8,10 @@
     --animate-delay: 0.5s;
   }
 
+.animate-extra-delay {
+    --animate-delay: 1s;
+}
+
 #navbar {
     opacity: 0.95;
 }
