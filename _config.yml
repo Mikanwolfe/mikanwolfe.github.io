@@ -1,4 +1,5 @@
 # WhatATheme
+# Modified by Mikanwolfe
 markdown: kramdown
 
 # URL of the Site
@@ -9,7 +10,7 @@ baseurl: ''
 # Title of the Site
 title: nekox
 # Description of the Site
-description: "Eloquent & Efficient Engineering"
+description: "ENGINEERING x DESIGN x COMPUTING"
 # URL of Image of the Site
 site-image: https://nekox.net/assets/images/meta.jpg
 # Keywords of the Site
