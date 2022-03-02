@@ -1,20 +1,25 @@
 - name: Final Year Project
-  image: https://nekox.net/assets/images/projects/fyp/fyp-header.jpg
+  image: https://nekox.net/assets/images/projects/fyp-header.jpg
   link: https://nekox.net/blog/final-year-project
-  description: Lorem ipsum dolor sit amet consectetur, at voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reici
+  description: An Autonomous Underground Mapping Drone htrough integrating modern drone technologies.
+  type: Engineering Research Project
 - name: NEKOX.NET
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae quiat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reici
-- name: Ignition Modelling
-  link:
-  image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci tempore illo accusantium consequatur doloremque dignissimos quo, maxime eius cum enim recusandae qui, delectus ea autem architecto? Velit natus, tempora, quaerat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reiciendis excepturi beatae doloribus, recusandae ex sed sapiente aliquam deleniti! Quis commodi culpa doloremque quaerat rem natus! Vero ipsam expedita id at quidem. In sit voluptatibus error cum? Minima sunt porro, architecto natus accusantium earum rerum voluptate recusandae fugit, error cons
+  link: https://nekox.net/blog/nekox-net
+  image: https://nekox.net/assets/images/projects/nekox-header.jpg
+  description: A website built on emerging technologies and in code itself! You're looking at it.
+  type: Web Development
+- name: Ignition Development
+  link: https://nekox.net/blog/ignition
+  image: https://nekox.net/assets/images/projects/ignition-header.jpg
+  description: Developing modelling and monitoring tools in Python on the Ignition platform.
+  type: Systems Integration
 - name: SSEE UAV Vision
-  link:
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas adipisci 
+  link: https://nekox.net/blog/ssee-uav-vision
+  image: https://nekox.net/assets/images/projects/uav-vision-header.jpg
+  description: Research into low-level navigation techniques such as optical flow for UAVs.
+  type: University Research Project
 - name: IP Fingerprinting
-  link:
-  image: https://cdn.pixabay.com/photo/2016/12/02/02/10/idea-1876659_960_720.jpg
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elat voluptates consectetur magnam aliquid veritatis cumque tempore ipsam delectus eveniet distinctio hic quod reici
+  link: https://nekox.net/blog/ip-fingerprinting
+  image: https://nekox.net/assets/images/projects/ip-fingerprinting-header.jpg
+  description: Research and development of prototype showing networked fingerprinting in Tokyo, Japan.
+  type: Cybersecurity Research
