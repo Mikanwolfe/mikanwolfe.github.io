@@ -1,7 +1,7 @@
 ---
 title: Final Year Project
 layout: post
-post-image:"https://nekox.net/assets/images/L9wrEGJjRdo_post.jpg"
+post-image: "https://nekox.net/assets/images/L9wrEGJjRdo_post.jpg"
 photo_author: "Jonathan Lampel" 
 photo_link: "https://unsplash.com/@jonlampel"
 author: Mikanwolfe
