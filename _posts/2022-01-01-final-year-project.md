@@ -1,11 +1,11 @@
 ---
 title: Final Year Project
 layout: post
-post-image: "https://nekox.net/assets/images/L9wrEGJjRdo_post.jpg"
-photo_author: "Jonathan Lampel" 
-photo_link: "https://unsplash.com/@jonlampel"
+post-image: "https://nekox.net/assets/images/post-image/8akqN57vacw_post.jpg"
+photo_author: "Chandler Cruttenden" 
+photo_link: "https://unsplash.com/@chanphoto"
 author: Mikanwolfe
-description: How to set up and use nekox.net's main theme, built on WhatATheme
+description: Final Year Project Placeholder
 tags:
 - how to
 - setup
