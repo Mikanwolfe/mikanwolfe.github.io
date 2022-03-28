@@ -36,6 +36,9 @@ layout: compress
                   {% if page.update_date%}
                     <br>Last updated on <b>{{ page.update_date | date: "%-B %d, %Y" }}</b>
                   {% endif %}
+                  {% if page.photo_author%}
+                    <br>Photo by <a href="{{page.photo_link}}"">{{page.photo_author}}</a>
+                  {% endif %}
                 </p>
                 {%- assign tags = page.tags -%}
                 {%- unless tags.size == 0 -%}
