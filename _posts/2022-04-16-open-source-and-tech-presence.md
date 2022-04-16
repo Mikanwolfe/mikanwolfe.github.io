@@ -93,7 +93,7 @@ As par for the course, the solution was on [StackOverflow](https://stackoverflow
 
 The process of creating an organisation was simple, and it also let me make the contribution as my main account, Mikanwolfe. I forked a new version of WhatATheme to a nekox-net repository and worked on the changes there.
 
-![image-20220416130933913](2022-04-16-open-source-and-tech-presence.assets/image-20220416130933913.png)
+![image-20220416130933913]({{site.url}}{{site.baseurl}}/assets/images/2022-04-16-open-source-and-tech-presence.assets/image-20220416130933913.png)
 
 I've always been slightly confused as to the nature of 'pull' and 'fetch' requests, and no amount of theorycrafting really made sense. I reckon this comes from our intuition on *where* we locate ourselves compared to a repository. Though one can say you 'pull' changes into a master file, it's quite difficult then to understand the nature of fetch. I think a good analogy and analogue is the *PLC Upload and Download*. 
 
@@ -106,7 +106,7 @@ This it the complete opposite of how we imagine the relationship of computers an
 
 Back to WhatATheme, the next step was to push to the nekox-net fork's master. After that, create a pull request!
 
-![image-20220416131542289](2022-04-16-open-source-and-tech-presence.assets/image-20220416131542289.png)
+![image-20220416131542289]({{site.url}}{{site.baseurl}}/assets/images/2022-04-16-open-source-and-tech-presence.assets/image-20220416131542289.png)
 
 So that's where we're at. The pull request is there and hopefully it gets accepted. 
 
