@@ -20,9 +20,8 @@ I had a unique opportunity to contribute to an open source project that I didn't
 
 The theme has a highlightable navigation bar, with your current scroll position on the page highlighting the item. This was taken quite literally in the original commit:
 
+{% highlight html %}
 
-
-```html
 <script>
   window.addEventListener("scroll", function (event) {
     var scroll = this.scrollY;
@@ -45,13 +44,13 @@ The theme has a highlightable navigation bar, with your current scroll position 
     }
   });
 </script>
-```
+{% endhighlight %}
 
 Though this worked fine for most devices, it created some challenges when viewed on other machines with differing aspect ratios. The prime example was my 1440p ultrawide. And, of course, magic numbers. 
 
 At some point in my original development, I had written the following replacement.
 
-```html
+{% highlight javascript %}
   var navItems = document.getElementsByClassName('navbar-item');
   var heroes = document.getElementsByClassName('hero');
   var magicScrollNumber = 200; 
@@ -73,7 +72,7 @@ At some point in my original development, I had written the following replacemen
       }
     }
   });
-```
+{% endhighlight %}
 
 In was, and still am, quite new to JavaScript, so optimisation or smarter syntax is slightly beyond me. The important aspect was that it was dynamic, which is important. This would come up later down the line when I added additional sections to the original theme. 
 
