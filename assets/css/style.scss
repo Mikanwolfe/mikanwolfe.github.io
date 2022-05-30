@@ -1,10 +1,12 @@
 ---
 ---
 
+@import "normalize";
 @import "main.scss";
 @import "autumn.scss";
 @import "magnific-popup/magnific-popup";
 @import "magnific-animation";
+
 
 /* All delay classes will take half the time to start */
 :root {
