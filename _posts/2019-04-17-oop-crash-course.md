@@ -2,7 +2,7 @@
 title: "Object Oriented Programming: Crash Course"
 layout: post
 update_date: 21-11-28
-post-image: "https://nekox.net/assets/images/oopcc.jpg"
+post-image: "assets/images/oopcc.jpg"
 author: Mikanwolfe
 description: Object-Oriented Programming, like all other paradigms, is quite a difficult concept to grasp. Here we'll go through a thorough but concise explanation of OOP concepts and principles.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Open Source and a Tech Presence
 layout: post
-post-image: "https://nekox.net/assets/images/post-image/8OyKWQgBsKQ_post.jpg"
+post-image: "assets/images/post-image/8OyKWQgBsKQ_post.jpg"
 photo_author: "Markus Spiske" 
 photo_link: "https://unsplash.com/@markusspiske"
 author: Mikanwolfe

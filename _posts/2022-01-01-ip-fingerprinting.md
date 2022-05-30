@@ -1,7 +1,7 @@
 ---
 title: IP Fingerprinting
 layout: post
-post-image: "https://nekox.net/assets/images/post-image/SRFG7iwktDk_post.jpg"
+post-image: "assets/images/post-image/SRFG7iwktDk_post.jpg"
 photo_author: "George Prentzas" 
 photo_link: "https://unsplash.com/@georgeprentzas"
 author: Mikanwolfe

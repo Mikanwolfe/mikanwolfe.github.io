@@ -1,7 +1,7 @@
 ---
 title: Final Year Project
 layout: post
-post-image: "https://nekox.net/assets/images/post-image/8akqN57vacw_post.jpg"
+post-image: "assets/images/post-image/8akqN57vacw_post.jpg"
 photo_author: "Chandler Cruttenden" 
 photo_link: "https://unsplash.com/@chanphoto"
 author: Mikanwolfe

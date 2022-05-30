@@ -1,7 +1,7 @@
 ---
 title: Installing and using nekox's theme
 layout: post
-post-image: /assets/images/post-image/using-nekox.jpg
+post-image: "assets/images/post-image/using-nekox.jpg"
 author: Mikanwolfe
 description: How to set up and use nekox.net's main theme, built on WhatATheme
 tags:
